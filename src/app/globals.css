@@ -10,11 +10,6 @@
   --btn: #005e7c;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: var(--bg);

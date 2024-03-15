@@ -2,6 +2,8 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
