@@ -23,10 +23,6 @@ export default function Links() {
       title: "Teams",
       path: "/teams",
     },
-    {
-      title: "Blogs",
-      path: "/blog",
-    },
   ];
   return (
     <div className={styles.container}>

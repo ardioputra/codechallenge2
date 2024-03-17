@@ -3,21 +3,25 @@ export const products = [
     title: "Machine Learning Solutions",
     desc: "Harness the power of data to gain valuable insights and drive intelligent decision-making.",
     url: "/machinelearning.avif",
+    price: "$100 - $1500",
   },
   {
     title: "Web Development Services",
     desc: "Create stunning and responsive websites that captivate your audience and drive engagement.",
     url: "/webdev.avif",
+    price: "$1500 - $5000",
   },
   {
     title: "IoT Architecture",
     desc: "Build connected systems that enhance efficiency, productivity, and connectivity.",
     url: "/iot.webp",
+    price: "$100 - $10000",
   },
   {
     title: "Embedded Systems",
     desc: "Develop reliable and efficient embedded solutions for a wide range of applications.",
     url: "/embedded.webp",
+    price: "$100 - $500",
   },
 ];
 
