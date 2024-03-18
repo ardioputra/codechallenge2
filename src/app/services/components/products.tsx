@@ -4,8 +4,8 @@ import { products } from "../service";
 export default function Products() {
   return (
     <div id="product" className="text-center">
-      <h2 className="text-4xl mb-6">Products and Services</h2>
-      <p className="pl-6 pr-6 text-xl text-center">
+      <h2 className="text-4xl mb-6 font-bold">OUR PRODUCTS</h2>
+      <p className="pl-6 pr-6 text-xl text-center text-gray-500">
         Explore our comprehensive suite of services designed to propel your
         business forward:
       </p>

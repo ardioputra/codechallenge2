@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Culture() {
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-bold pb-10 pt-10">Culture</h1>
+      <h1 className="text-4xl font-bold pb-10 ">Culture</h1>
       <p className="text-gray-50 text-xl mb-10">
         At OIDRA Solution, our culture is the cornerstone of our success. We
         foster a collaborative and inclusive environment where creativity
@@ -14,7 +14,7 @@ export default function Culture() {
         team members to reach their full potential and deliver unparalleled
         solutions to our clients.
       </p>
-      <Link href="/services" className="text-2xl hover:text-purple-300">
+      <Link href="/services" className="text-2xl hover:text-purple-300 underline ">
         Discover the OIDRA Solution difference - where passion meets innovation.
       </Link>
     </div>

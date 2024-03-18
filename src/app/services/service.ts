@@ -14,13 +14,13 @@ export const products = [
   {
     title: "IoT Architecture",
     desc: "Build connected systems that enhance efficiency, productivity, and connectivity.",
-    url: "/iot.webp",
+    url: "/iot.avif",
     price: "$100 - $10000",
   },
   {
     title: "Embedded Systems",
     desc: "Develop reliable and efficient embedded solutions for a wide range of applications.",
-    url: "/embedded.webp",
+    url: "/embedded.avif",
     price: "$100 - $500",
   },
 ];

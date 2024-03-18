@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <section className="mb-32 text-center">
-      <h2 className="mb-12 text-4xl mt-12">Testimonials</h2>
+    <section className="text-center">
+      <h2 className="mb-12 text-4xl mt-12 font-bold">TESTIMONIALS</h2>
       <p className="pl-6 pr-6 mb-12 text-xl text-center">
         {" "}
         But don't just take our word for it. Hear what our satisfied clients
