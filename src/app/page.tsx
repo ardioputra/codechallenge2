@@ -7,7 +7,7 @@ import Testimonials from "./services/components/testimonials";
 export default function Home() {
   return (
     <div>
-      <div className="mt-4 max-[600px]:mt-0">
+      <div className="mt-0 max-[600px]:mt-0">
         <Hero />
       </div>
       <div className="mt-48 max-[600px]:mt-0">
