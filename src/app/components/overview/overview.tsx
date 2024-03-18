@@ -11,6 +11,7 @@ export default function Overview() {
           height={434}
           alt="fotooverview"
           className="m-6"
+          loading="eager"
         />
       </div>
       <p className="pl-6 pr-6 pt-10 text-xl text-center text-gray-500">

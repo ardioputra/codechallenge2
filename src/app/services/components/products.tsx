@@ -20,7 +20,7 @@ export default function Products() {
                 sizes="100vw"
                 style={{ width: "200%", height: "100%" }}
                 alt="fotoitems"
-                loading="lazy"
+                loading="eager"
               />
             </div>
             <div className="mt-4 flex justify-between">

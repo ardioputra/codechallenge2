@@ -35,6 +35,7 @@ export default async function Team() {
                   height={100}
                   alt="foto team"
                   className="w-32 rounded-full shadow-lg dark:shadow-black/20"
+                  loading="eager"
                 />
               </div>
               <h5 className="mb-2 text-lg font-bold">
