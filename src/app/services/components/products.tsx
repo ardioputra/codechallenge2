@@ -26,7 +26,7 @@ export default function Products() {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-sm text-gray-700">
-                  <a href="/services">
+                  <a href={`/services/${product.id}`}>
                     <span
                       aria-hidden="true"
                       className="absolute inset-0"
@@ -35,7 +35,7 @@ export default function Products() {
                   </a>
                 </h3>
                 <h3 className="text-sm text-gray-700">
-                  <a href="/services">
+                  <a href={`/services/${product.id}`}>
                     <span
                       aria-hidden="true"
                       className="absolute inset-0"
