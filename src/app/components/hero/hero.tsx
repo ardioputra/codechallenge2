@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative">
-          <Image loading="eager" src="/fotohero.avif" width={2500} height={1000} alt="fotohero" className="max-[473px]:w-[300px]"/>
+          <Image loading="eager" src="/home/fotohero.avif" width={2500} height={1000} alt="fotohero" className="max-[473px]:w-[300px]"/>
         </div>
       </div>
     </div>

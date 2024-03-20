@@ -6,7 +6,7 @@ export default function Overview() {
       <h2 className="text-4xl mb-2 font-bold">WHO IS OIDRA SOLUTION?</h2>
       <div className="flex justify-center items-center">
         <Image
-          src="/fotooverview.avif"
+          src="/home/fotooverview.avif"
           width={900}
           height={434}
           alt="fotooverview"

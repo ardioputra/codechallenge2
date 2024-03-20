@@ -9,7 +9,7 @@ export default function Products() {
         Explore our comprehensive suite of services designed to propel your
         business forward:
       </p>
-      <div className="mt-6 grid grid-flow-row gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <div className="mt-6 grid grid-flow-row gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-4">
         {products.map((product) => (
           <div className="group relative" key={product.title}>
             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -25,7 +25,7 @@ export default function Products() {
             </div>
             <div className="mt-4 flex justify-between">
               <div>
-                <h3 className="text-sm text-gray-700">
+                <h3 className="text-sm text-gray-300">
                   <a href={`/services/${product.id}`}>
                     <span
                       aria-hidden="true"
@@ -34,7 +34,7 @@ export default function Products() {
                     {product.title}
                   </a>
                 </h3>
-                <h3 className="text-sm text-gray-700">
+                <h3 className="text-sm text-gray-300">
                   <a href={`/services/${product.id}`}>
                     <span
                       aria-hidden="true"

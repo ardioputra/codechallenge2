@@ -10,7 +10,7 @@ export default function History() {
         <Image
           loading="eager"
           alt="gedung"
-          src="/gedung.avif"
+          src="/about/gedung.avif"
           width={800}
           height={800}
         />

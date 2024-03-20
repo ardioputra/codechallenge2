@@ -3,21 +3,24 @@ export interface Iservice {
   image: string;
   name: string;
   desc: string;
-  solution: {
-    firstpack: {
+  solution: [
+    {
       name: string;
+      image:string;
       price: string;
       jobdesc: string;
-    };
-    secondpack: {
+    },
+    {
       name: string;
+      image:string;
       price: string;
       jobdesc: string;
-    };
-    thirdpack: {
+    },
+    {
       name: string;
+      image:string;
       price: string;
       jobdesc: string;
-    };
-  };
+    }
+  ];
 }
