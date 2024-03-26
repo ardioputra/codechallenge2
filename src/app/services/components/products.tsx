@@ -9,7 +9,7 @@ export default function Products() {
         Explore our comprehensive suite of services designed to propel your
         business forward:
       </p>
-      <div className="mt-6 grid grid-flow-row gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-2 xl:gap-x-4">
+      <div className="mt-6 grid grid-flow-row gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-4">
         {products.map((product) => (
           <div className="group relative" key={product.title}>
             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -43,7 +43,9 @@ export default function Products() {
                     {product.price}
                   </a>
                 </h3>
-                <p className="mt-1 text-sm text-gray-500">{product.desc}</p>
+                <p className="mt-1 text-sm text-gray-500">
+                  {product.desc}
+                </p>
               </div>
             </div>
           </div>

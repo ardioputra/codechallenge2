@@ -4,8 +4,6 @@ import Image from "next/image";
 
 export default function Service({ params }: { params: { service: string } }) {
   const content = serviceDetail.find((x) => x.id == params.service);
-  console.log(content);
-
   return (
     <div>
       <div className="text-center">
@@ -21,6 +19,9 @@ export default function Service({ params }: { params: { service: string } }) {
         </div>
         <p className="text-xl pt-10 pb-10 ">{content?.desc}</p>
       </div>
+      <h1 className="text-center text-3xl font-bold">
+        Our {content?.name} Services
+      </h1>
       <div className="mt-6 grid grid-flow-row gap-x-6 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-3">
         {content?.solution.map((detail) => (
           <div className="group relative" key={detail.name}>
